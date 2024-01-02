@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #282A3A;
+
+}
+.Array-container{
+    /* border: 1px solid white; */
+    position: absolute;
+    left: 50px;
+    right: 50px;
+    top: 30px;
+}
+.Array-bar{
+    width: 4.5px;
+    background-color: #C69749;
+    display: inline-block;
+    margin: 5px 1px;
+    box-shadow: 2px 2px #73603292;
+}
+.gBtn{
+    margin: 7px;
+    color: white;
+    overflow: hidden;
+    width: 180px;
+    height: 35px;
+    font-family: serif;
+    border-radius: 5px 15px;
+    box-shadow: -2px -2px #73603292,5px 5px #73603292;
+}
+.gBtn:hover{
+    color: #1b1b22;
+    border: #282A3A;
+    background-color: #C69749;
+    /* border-radius: 15px 5px; */
+    box-shadow: 2px 2px  #00000092 , 5px 3px  #00000092;
+}
+.btn-container{
+    margin: 3px;
+}
